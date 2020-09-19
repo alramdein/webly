@@ -31,8 +31,8 @@
             </article>
             <article id="courses" >
                 <header>
-                    <p>Courses that covered on Webly online learing platform span 
-                        from fundamental web technology to advanced</p>
+                    <p class="section-intro">Courses that covered on Webly online learing platform span 
+                        from fundamental web development to advanced</p>
                 </header>
                 <article>
                     <div class="courses">
@@ -61,41 +61,68 @@
             </article>
             <article id="community">
                 <header>
-                    <p>Join our community now!</p>
+                    <p class="section-intro">Join our community now!</p>
                 </header>
                 <article>
                     <form>
-                        Name: <input name="name">
-                        Email: <input name="name">
-                        <button>Join</button>
+                        <p>Verify your email to join the community</p>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                        <button>Join Now</button>
+                        <p><a href="#">Log in</a> to your community account if you already verify your email</p>
                     </form>
                     <aside>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consequat condimentum posuere. 
-                        Quisque sit amet rhoncus orci, ac pretium massa. Donec vitae ante ut nibh ullamcorper 
-                        scelerisque. Donec viverra lorem vel leo mattis dictum. Nulla facilisi. Aenean scelerisque 
-                        ligula nulla, quis pellentesque diam tempus et. Cras et euismod purus. Nulla facilisi.
+                        <img src="./assets/search.jpg">
+                        <div>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consequat condimentum posuere. 
+                                Quisque sit amet rhoncus orci, ac pretium massa. Donec vitae ante ut nibh ullamcorper 
+                                scelerisque. 
+                            </p>
+                        </div>
                     </aside>
                 </article>
             </article>
             <article id="about-me">
-                <img src="">
-                <p>Hi, my name is</p>
-                <h1>Alif Ramdani</h1>
-                <p>I'm a passionate web developer and a nice guy. 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pharetra nunc felis, 
-                id gravida dui placerat ut. Maecenas vel turpis sem. Quisque consectetur nulla nisi, 
-                at lobortis ex tempus sit amet. Vivamus porttitor tristique vulputate. Suspendisse 
-                finibus neque ullamcorper quam efficitur ornare. Etiam quis porttitor massa, condimentum 
-                ultrices nibh. Mauris eu elit id velit faucibus pharetra non nec dui. Cras sed diam 
-                lobortis, blandit nunc quis, lacinia mi. Class aptent taciti sociosqu ad litora 
-                torquent per conubia nostra, per inceptos himenaeos. Praesent efficitur ullamcorper 
-                interdum. Nulla at felis augue.</p>
+                <p class="section-intro">About me</p>
+                <div class="about-me">
+                    <div class="profile">
+                        <img src="./assets/square-alif-ramdani.jpg">
+                        <p>Know me more!</p>
+                        <div class="social-media">
+                            <a target="_blank" href="https://www.instagram.com/alramdein/?hl=id"><img src="./assets/instagram-logo.png"></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/alif-ramdani/"><img src="./assets/linkedin-logo.png"></a>
+                        </div>
+                    </div>
+                    
+                    <div> 
+                        <p class="section-intro">Hi, my name is</p>
+                        <h1>Alif Ramdani</h1>
+                        <p class="description about-me-desc">I'm a junior Web Developer and a nice guy. 
+                        I also interested in UI/UX design. I'm passionate about anything related 
+                        to Web Development especially in the frontend side. And I hope 
+                        I can  become an IT manager in the future.
+                        <br/> <br/>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pharetra nunc felis, 
+                        id gravida dui placerat ut. Maecenas vel turpis sem. Quisque consectetur nulla nisi, 
+                        at lobortis ex tempus sit amet. Vivamus porttitor tristique vulputate. Suspendisse 
+                        finibus neque ullamcorper quam efficitur ornare. Etiam quis porttitor massa, condimentum 
+                        ultrices nibh. Mauris eu elit id velit faucibus pharetra non nec dui. Cras sed diam 
+                        lobortis, blandit nunc quis, lacinia mi. Class aptent taciti sociosqu ad litora 
+                        torquent per conubia nostra, per inceptos himenaeos. Praesent efficitur ullamcorper 
+                        interdum. Nulla at felis augue.</p>
+                    </div>
+                </div>
             </article>
         </div>
     </main>
     <footer>
-        <section id="credits">
-            <a href="http://www.freepik.com">Illustration designed by vectorpouch / Freepik</a>
+        <p class="copyright">Alif Ramdani &copy 2020 </p>
+        <section id="credits" class="credits">
+            <p>Credits:</p>
+            <a href="http://www.freepik.com/vectorpouch">Home Illustration vector designed by vectorpouch / Freepik</a> <br/>
+            <a href="http://www.freepik.com/stories">Courses and Community Illustration vector Designed by stories / Freepik</a>
         </section>
        
     </footer>

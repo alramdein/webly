@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    width: 98%;
     font-family: Roboto, sans-serif;
+    margin: 0 auto;
+}
+
+main {
     width: 90%;
     margin: 0 auto;
 }
@@ -88,11 +97,14 @@ button {
     border: none;
     text-decoration: none;
     text-align: center;
-    padding: 15px;
     border-radius: 4px;
     outline: none;
     background-position: center;
     transition: background 0.8s;
+}
+
+#home button {
+    padding: 15px;
 }
 
 button:hover {
@@ -112,7 +124,7 @@ button:active {
 /* content: courses */
 
 #courses {
-    margin-top: 50px;
+    margin-top: 100px;
     padding-top: 50px;
 }
 
@@ -120,7 +132,7 @@ button:active {
     margin-bottom: 50px;
 }
 
-#courses header p {
+.section-intro{
     font-size: 25px;
     width: 800px;
     margin: 20px auto;
@@ -157,5 +169,123 @@ button:active {
 }
 
 .card:hover {
-  transform: scale(1.1);  
+    cursor: pointer;
+    transform: scale(1.1);  
+}
+
+
+/* content: community */
+
+#community {
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+#community article {
+    display: flex;
+}
+
+#community form {
+    width: 50%;
+    margin: 0px 10px;
+}
+
+#community a {
+    text-decoration: none;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#community aside {
+    display: flex;
+    width: 50%;
+    margin: 0px 10px;
+    padding: 30px 0px;
+}
+
+.description {
+    text-align: justify;
+    color: #505050;
+}
+
+#community aside img {
+    align-items: center;
+    height: 300px;
+}
+
+
+/* content: about me */
+#about-me {   
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.about-me {
+    display: flex;
+    margin-top: 50px;
+}
+
+.about-me img {
+    margin-top: 50px;
+    height: 400px;
+}
+
+.about-me h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #a389c8; 
+}
+
+.about-me-desc {
+    font-size: 20px;
+    width: 600px;
+    margin: 20px auto;
+}
+
+.profile p {
+    color: #a389c8; 
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.social-media img {
+    width: 30px;
+    height: auto;
+    margin: 0px 10px;
+}
+
+/* footer  */
+footer {
+    color: white;
+    background-color: #340a70;
+    margin-top: 50px;
+    padding: 30px 30px;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.credits {text-align: center;}
+
+.credits a{
+    color: white;
 }
