@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header h1{
+    color: #a389c8;
+}
+
+nav {
+    float: right;
+    margin-top: 15px;
+    /* border-style: solid; */
+}
+
+.clear {
+    clear: both;
+}
+
+.logo {
+    /* border-style: solid; */
+    float: left; 
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+li {
+    display: inline;
+}
+
+
+/* main  */
+main {
+    display: block;
+}
+
+
+#home {
+    display: flex;
+}
+
+#home img {
+    height: 500px;
+    width: 500px;
+}
+
+#home aside {
+    color: #a389c8;
+    margin: 100px 0px 0px 50px;
+}
+
+#home aside h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#home aside button {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+button {
+    background-color: #5c14c2;
+    color: white;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    border-radius: 4px;
+    outline: none;
+    background-position: center;
+    transition: background 0.8s;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #41009c 
+        radial-gradient(circle, transparent 1%,  
+        #41009c 1%) center/15000%;
+}
+
+button:active {
+    background-color: #743fbd; ;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+ }
