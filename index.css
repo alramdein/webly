@@ -6,23 +6,28 @@ body {
     margin: 0 auto;
 }
 
-header h1{
-    color: #a389c8;
-}
-
-nav {
-    float: right;
-    margin-top: 15px;
-    /* border-style: solid; */
-}
-
-.clear {
-    clear: both;
+header {
+    display: inline;
 }
 
 .logo {
-    /* border-style: solid; */
-    float: left; 
+    float: left;
+    margin: 10px 20px; 
+    color: #a389c8; 
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    background-color: white;
+    margin-top: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul {
+    float: right;
 }
 
 nav a {
@@ -34,14 +39,20 @@ nav a {
 
 nav a:hover {
     font-weight: bold;
+    transition: weight 0.5s;
 }
 
 li {
     display: inline;
 }
 
+.clear {
+    clear: right;
+}
+
 
 /* main  */
+/* content: home */
 main {
     display: block;
 }
@@ -97,7 +108,54 @@ button:active {
     transition: background 0s;
 }
 
+
+/* content: courses */
+
+#courses {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+#courses header {
+    margin-bottom: 50px;
+}
+
+#courses header p {
+    font-size: 25px;
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    color: #505050;
+}
+
+.courses {
+    display: flex;
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+    width: 250px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
  }
+
+.card img {
+    width: 200px;
+}
+
+.card h2 {
+     color: #a389c8;
+ }
+
+.card p {
+    color: #8f8f8f;
+    font-size: small;
+    margin-top: 10px;
+}
+
+.card:hover {
+  transform: scale(1.1);  
+}
