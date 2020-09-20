@@ -45,5 +45,4 @@ function navbar() {
     } else {
         navBars.className = "__nav"
     }
-    console.log(navBars.className)
 }
