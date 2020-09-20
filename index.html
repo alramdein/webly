@@ -9,8 +9,9 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="__nav">
             <h1 class="logo">Webly</h1>
+            <a href="javascript:void(0)" class="__nav-bars" onclick="navbar()"><img  src="./assets/bars-solid.png"></a>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#courses">Courses</a></li>
@@ -22,6 +23,7 @@
     </header>
     <main>
         <div id="content">
+            <div id="test"></div>
             <article id="home">
                 <img src="./assets/webdev-illustration.jpg">
                 <aside> 
@@ -35,28 +37,7 @@
                         from fundamental web development to advanced</p>
                 </header>
                 <article>
-                    <div class="courses">
-                        <div id="course-1" class="card">
-                            <img src="./assets/html.jpg">
-                            <h2>Fundamentals</h2>
-                            <p>HTML, CSS, and JavScript</p>
-                        </div>
-                        <div id="course-2" class="card">
-                            <img src="./assets/open-source.jpg">
-                            <h2>Backend Task</h2>
-                            <p>Node.Js and Express.Js</p>
-                        </div>
-                        <div id="course-3" class="card">
-                            <img src="./assets/progamming.jpg">
-                            <h2>JS Frameworks</h2>
-                            <p>React.Js, Vue.Js, and Angular CLI</p>
-                        </div>
-                        <div id="course-4" class="card">
-                            <img src="./assets/webserver.jpg">
-                            <h2>Web Server</h2>
-                            <p>NGINX and AWS</p>
-                        </div>
-                    </div>
+                    <div class="courses"></div>
                 </article>
             </article>
             <article id="community">

@@ -55,6 +55,10 @@ li {
     display: inline;
 }
 
+.__nav-bars {
+    display: none;
+} 
+
 .clear {
     clear: right;
 }
@@ -238,8 +242,10 @@ form button {
 }
 
 .about-me img {
-    margin-top: 50px;
-    height: 400px;
+    padding: 10px;
+    margin: 50px auto;
+    width: 300px;
+    height: auto;
 }
 
 .about-me h1 {
@@ -288,4 +294,73 @@ footer {
 
 .credits a{
     color: white;
+}
+
+
+/* responsive design  */
+
+@media screen and (max-width:1300px) {
+    body, main {
+        width: 90%;    
+    }
+    #home, .courses, #community article,
+    .about-me, #community aside {
+        flex-direction: column;
+    }
+    #home img, .section-intro, .card img, 
+    #community aside img, .about-me img,
+    #community aside, #community form,  
+    .about-me-desc
+    {
+        height: auto;
+        width: 100%;
+    }
+    #home aside {
+        margin: 0px auto;
+    }
+    #home aside h2 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .section-intro{
+        font-size: 20px;
+    }
+    .card {
+        width: 100%;
+        height: auto;
+    }
+    .card h2 {
+        font-size: 5vw;
+    }
+    .card p {
+        font-size: 3vw;
+    }
+    .social-media img {
+        width: 20px;
+        height: auto;
+    }
+}
+
+/* responsive nav */
+@media screen and (max-width: 590px) {
+    nav ul a{
+        display: none;
+    }
+    .__nav-bars {
+        display: block;
+        box-sizing: border-box;
+        float: right;
+        margin: 10px 20px;
+    }
+    .__nav-bars img {
+        width: 30px;
+        height: auto;
+    }
+    .__nav.responsive ul a{
+        display: block;
+        text-align: right;
+    }
+    .__nav.responsive ul {
+        width: 300px;
+    }
 }
