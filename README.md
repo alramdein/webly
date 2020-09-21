@@ -6,6 +6,8 @@ Webly is an online learning platform specialized for web developers. This is an 
 
 Double click on `index.html` file
 
+or you can access it live on https://alramdein.github.io/webly/
+
 # Author
 
 This website is created by Alif Ramdani a.k.a alramdein (https://github.com/alramdein). I open this repo publicly so I hope it can help others who want to learn Web Development or just use it on their projects. 
