@@ -1,6 +1,6 @@
 # Webly
 
-Webly is an online learning platform specialized for web developers. This is a personal project aimed to improve and show my basic web development skill. This web will just purely use only HTML, CSS, and JavaScript. No libraries and frameworks included. #LearningByDoing
+Webly is an online learning platform specialized for web developers. This is an UI-only personal project aimed to improve and show my basic web development skill. This web will just purely use only HTML, CSS, and JavaScript. No libraries and frameworks included. #LearningByDoing
 
 # Run
 
